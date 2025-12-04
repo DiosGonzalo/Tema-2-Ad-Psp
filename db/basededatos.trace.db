@@ -1,0 +1,144 @@
+2025-12-04 14:20:03.318890+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES [42001-232]
+2025-12-04 14:20:03.328831+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]1, 'IB3100', 85.50, 180, 150),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]1, 'IB3100', 85.50, 180, 150),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(1, 'IB3100', 85.50, 180, 150), [42001-232]
+2025-12-04 14:20:03.332822+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]2, 'VY2050', 55.00, 120, 100),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]2, 'VY2050', 55.00, 120, 100),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(2, 'VY2050', 55.00, 120, 100), [42001-232]
+2025-12-04 14:20:03.336811+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]3, 'FR9012', 30.99, 200, 200)"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]3, 'FR9012', 30.99, 200, 200)"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(3, 'FR9012', 30.99, 200, 200) [42001-232]
+2025-12-04 14:20:03.342794+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES [42001-232]
+2025-12-04 14:20:03.345787+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]101, 'Ana', 'García', '1995-10-20'),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]101, 'Ana', 'García', '1995-10-20'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(101, 'Ana', 'García', '1995-10-20'), [42001-232]
+2025-12-04 14:20:03.347781+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]102, 'Luis', 'Martínez', '1988-05-15'),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]102, 'Luis', 'Martínez', '1988-05-15'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(102, 'Luis', 'Martínez', '1988-05-15'), [42001-232]
+2025-12-04 14:20:03.349776+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]103, 'Elena', 'Ruiz', '2000-01-01')"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]103, 'Elena', 'Ruiz', '2000-01-01')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(103, 'Elena', 'Ruiz', '2000-01-01') [42001-232]
+2025-12-04 14:20:03.354762+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES [42001-232]
+2025-12-04 14:20:03.360746+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]101, 1),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]101, 1),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(101, 1), [42001-232]
+2025-12-04 14:20:03.365733+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]102, 1),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]102, 1),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(102, 1), [42001-232]
+2025-12-04 14:20:03.371717+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]102, 2),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]102, 2),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(102, 2), [42001-232]
+2025-12-04 14:20:04.018848+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2),[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2),[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2), [42001-232]
+2025-12-04 14:21:13.404591+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES [42001-232]
+2025-12-04 14:21:13.412540+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]1, 'IB3100', 85.50, 180, 150),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]1, 'IB3100', 85.50, 180, 150),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(1, 'IB3100', 85.50, 180, 150), [42001-232]
+2025-12-04 14:21:13.417527+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]2, 'VY2050', 55.00, 120, 100),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]2, 'VY2050', 55.00, 120, 100),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(2, 'VY2050', 55.00, 120, 100), [42001-232]
+2025-12-04 14:21:13.420518+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]3, 'FR9012', 30.99, 200, 200)"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]3, 'FR9012', 30.99, 200, 200)"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(3, 'FR9012', 30.99, 200, 200) [42001-232]
+2025-12-04 14:21:13.423511+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES [42001-232]
+2025-12-04 14:21:13.424508+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]101, 'Ana', 'García', '1995-10-20'),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]101, 'Ana', 'García', '1995-10-20'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(101, 'Ana', 'García', '1995-10-20'), [42001-232]
+2025-12-04 14:21:13.426503+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]102, 'Luis', 'Martínez', '1988-05-15'),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]102, 'Luis', 'Martínez', '1988-05-15'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(102, 'Luis', 'Martínez', '1988-05-15'), [42001-232]
+2025-12-04 14:21:13.428498+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]103, 'Elena', 'Ruiz', '2000-01-01')"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]103, 'Elena', 'Ruiz', '2000-01-01')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(103, 'Elena', 'Ruiz', '2000-01-01') [42001-232]
+2025-12-04 14:21:13.430493+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2),[*][*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2),[*][*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2),[*] [42001-232]
+2025-12-04 14:21:13.997068+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2),[*][*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2),[*][*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES (101, 1), (102, 1), (102, 2),[*] [42001-232]
+2025-12-04 14:22:34.466738+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO VUELO (id, cod_vuelo, precio, capacidad, plazas_disponibles) VALUES [42001-232]
+2025-12-04 14:22:34.475686+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]1, 'IB3100', 85.50, 180, 150),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]1, 'IB3100', 85.50, 180, 150),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(1, 'IB3100', 85.50, 180, 150), [42001-232]
+2025-12-04 14:22:34.477681+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]2, 'VY2050', 55.00, 120, 100),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]2, 'VY2050', 55.00, 120, 100),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(2, 'VY2050', 55.00, 120, 100), [42001-232]
+2025-12-04 14:22:34.479675+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]3, 'FR9012', 30.99, 200, 200)"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]3, 'FR9012', 30.99, 200, 200)"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(3, 'FR9012', 30.99, 200, 200) [42001-232]
+2025-12-04 14:22:34.481670+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PERSONA (id, nombre, apellido, fecha_nacimiento) VALUES [42001-232]
+2025-12-04 14:22:34.483664+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]101, 'Ana', 'García', '1995-10-20'),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]101, 'Ana', 'García', '1995-10-20'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(101, 'Ana', 'García', '1995-10-20'), [42001-232]
+2025-12-04 14:22:34.485658+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]102, 'Luis', 'Martínez', '1988-05-15'),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]102, 'Luis', 'Martínez', '1988-05-15'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(102, 'Luis', 'Martínez', '1988-05-15'), [42001-232]
+2025-12-04 14:22:34.487654+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]103, 'Elena', 'Ruiz', '2000-01-01')"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]103, 'Elena', 'Ruiz', '2000-01-01')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(103, 'Elena', 'Ruiz', '2000-01-01') [42001-232]
+2025-12-04 14:22:34.490646+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES[*]"; se esperaba "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PERSONA_VUELO (persona_id, vuelo_id) VALUES [42001-232]
+2025-12-04 14:22:34.491643+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]101, 1),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]101, 1),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(101, 1), [42001-232]
+2025-12-04 14:22:34.495642+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]102, 1),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]102, 1),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(102, 1), [42001-232]
+2025-12-04 14:22:34.501617+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]102, 2),"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]102, 2),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(102, 2), [42001-232]
+2025-12-04 14:22:34.502614+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "([*]103, 2)"; se esperaba "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]103, 2)"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(103, 2) [42001-232]
